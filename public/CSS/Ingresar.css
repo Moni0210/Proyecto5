@@ -1,0 +1,210 @@
+﻿.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+
+
+.formcontent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px; /*espaio entre elcontenido y el borde*/
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    /*text-align:center;*/
+}
+
+
+
+.contenidoCliente {
+    height: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    width: 1803px;
+}
+
+
+.formulario {
+    margin-top: 70px;
+    float: left;
+    width: 31%;
+    height: 549px;
+    position: relative;
+    top: -49px;
+    left: 2px;
+}
+
+
+.tabla {
+    margin-top: 10px;
+    float: right;
+    justify-content: center;
+    width: 69%;
+    height: 466px;
+    position: relative;
+    top: 0px;
+    left: -10px;
+}
+
+.formTexto {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #CFECEF;
+    font-family: Cambria;
+    font-size: 18px;
+    color: black;
+}
+
+.formTextoboton {
+    /*width: 100%;*/
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: #CFECEF;
+    padding: 12px;
+    color: white;
+    margin: 16px 0 16px 17px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.texto {
+    width: 300px;
+    /*width: 100%;*/
+    margin-bottom: 16px;
+    border: none;
+    padding: 12px;
+    font-family: Cambria;
+    font-size: 18px;
+    color: black;
+}
+/*tabla*/
+.mGrid {
+    background-color: #fff;
+    margin: 10px 0 10px 50px;
+    border: solid 1px #A8CACE;
+    border-collapse: collapse;
+}
+
+    /*lineas defs label tabla*/
+    .mGrid td {
+        padding: 2px;
+        border: solid 1px #A8CACE;
+        color: #717171;
+    }
+
+    .mGrid th {
+        padding: 4px 2px;
+        color: #fff;
+        border-left: solid 1px #A8CACE;
+        font-size: 20px;
+        background-color: #CFECEF;
+    }
+
+    .mGrid .pgr table {
+        margin: 5px 0;
+    }
+
+    .mGrid .pgr td {
+        border-width: 0;
+        padding: 0 6px;
+        border-left: solid 1px #666;
+        font-weight: bold;
+        color: #fff;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    .mGrid .pgr a {
+        color: #666;
+        text-decoration: none;
+    }
+
+        .mGrid .pgr a:hover {
+            color: #000;
+            text-decoration: none;
+        }
+
+
+.titulo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: Cambria;
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+    width: 1791px;
+}
+
+/*
+boton eliminar*/
+
+
+
+.botoneliminar {
+    position: absolute;
+    top: 50px;
+    left: 1133px;
+    width: 46px;
+}
+
+.botoncalendario {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+
+
+.label {
+    font-family: Cambria;
+    font-size: 18px;
+    color: black;
+    margin-left: 20px;
+}
+
+.formTexto2 {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #CFECEF;
+    font-family: Cambria;
+    font-size: 18px;
+    color: black;
+    top: 0px;
+    left: 79px;
+    margin-left: 11px;
+    margin-top: 9px;
+}
+
+.imgcalendario {
+    position: relative;
+}
+
+.calendario {
+    position: absolute;
+    top: 616px;
+    left: 0px;
+    height: 204px;
+    width: 215px;
+}
+
+.contenidosericio {
+    height: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    width: 1803px;
+}
